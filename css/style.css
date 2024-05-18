@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: robotoreg;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: robotobold;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 900;
+}
+
+div.verx {
+    background-color: rgba(147, 152, 120, 1);
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    padding: 10px;
+}
+
+div.verx p {
+    text-align: center;
+    color: white;
+    font-family: robotoreg;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header {
+    display: grid;
+    padding: 21px 80px;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: 10px;
+    text-align: end;
+}
+
