@@ -1,10 +1,10 @@
 @font-face{
     font-family: "Roboto";
-    src: url(/fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face{
     font-family: "Roboto";
-    src: url(/fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 *{
     box-sizing: border-box;
@@ -26,7 +26,6 @@ div p{
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
-    text-align: center;
     color: white;
     
 }
@@ -194,10 +193,13 @@ main section.works div.how h2 {
 }
 
 main section.works div.how span {
+    display: block;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 18px;
     color: #65665C;
+    width: 33%;
+    margin: 0 auto;
 }
 
 main section.works div.find {
@@ -229,3 +231,185 @@ main section.works div.find article span {
     color: #65665C;
 }
     
+main section.best {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 700px;
+    padding: 128px 80px;
+}
+
+main section.best div.left span.odin {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+
+main section.best div.left h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 20px;
+    width: 40%;
+}
+
+main section.best div.left p.rut {
+    color: #65665C;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+main section.best div.left span.dva {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section.best div.left span.dva:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.best div.left span.tri {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.best div.left span.tri:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+
+main section.best div.left {
+    padding-top: 270px;
+    padding-left: 80px;
+}
+
+main section.best div.rid {
+    padding-right: 80px;
+    grid-template-rows: 1fr 600px;
+}
+
+main section.best div.rid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main section.poxo {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: 700px;
+    padding: 100px 80px;
+}
+
+main section.poxo div.imeg {
+    padding-left: 80px;
+    grid-template-rows: 1fr 600px;
+}
+
+main section.poxo div.imeg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main section.poxo div.oding {
+    padding-top: 160px;
+    padding-left: 390px;
+}
+
+main section.poxo div.oding span.red {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+
+main section.poxo div.oding h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+main section.poxo div.oding h3 {
+    color: #65665C;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    width: 60%;
+}
+
+main section.poxo div.ore {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main section.poxo .ore h3 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+ div.ore p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #65665C;
+    width: 50%;
+}
+
+main section.poxo div.tejeknopki span.ko {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section.poxo div.tejeknopki span.ko:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.poxo div.tejeknopki span.ky {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.poxo div.tejeknopki span.ky:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+
+main section.poxo div.tejeknopki {
+    padding-top: 37px;
+}
