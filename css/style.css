@@ -136,6 +136,7 @@ main section.find form div a {
     font-size: 20px;
 }
 
+
 main section.find form input {
     width: 310px;
     height: 50px;
@@ -252,7 +253,7 @@ main section.best div.left h2 {
     font-weight: 700;
     font-size: 48px;
     padding-top: 20px;
-    width: 40%;
+    width: 60%;
 }
 
 main section.best div.left p.rut {
@@ -262,7 +263,7 @@ main section.best div.left p.rut {
     font-size: 18px;
     padding-top: 28px;
     padding-bottom: 30px;
-    width: 40%;
+    width: 60%;
 }
 
 main section.best div.left span.dva {
@@ -358,7 +359,7 @@ main section.poxo div.oding h3 {
     font-size: 18px;
     padding-top: 28px;
     padding-bottom: 30px;
-    width: 60%;
+    width: 95%;
 }
 
 main section.poxo div.ore {
@@ -378,7 +379,7 @@ main section.poxo .ore h3 {
     font-weight: 400;
     font-size: 16px;
     color: #65665C;
-    width: 50%;
+    width: 90%;
 }
 
 main section.poxo div.tejeknopki span.ko {
@@ -412,4 +413,248 @@ main section.poxo div.tejeknopki span.ky:hover {
 
 main section.poxo div.tejeknopki {
     padding-top: 37px;
+}
+
+main section.your {
+    display: grid;
+    text-align: center;
+    background-color: whitesmoke;
+    row-gap: 21px;
+    padding-bottom: 81px;
+    justify-items: center;
+}
+
+main section.your svg {
+    justify-self: end;
+}
+
+main section.your span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+    width: max-content;
+}
+
+main section.your h3 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+}
+
+main section.carto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 31px;
+    background-color: whitesmoke;
+    padding-left: 8vw;
+}
+
+main section.carto img {
+    width: 405px;
+    height: 268px;
+    object-fit: cover;
+}
+
+main section.carto article {
+    display: grid;
+    row-gap: 16px;
+    background-color: white;
+    width: 405px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+main section.carto div.cozy h2  {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 5px;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+main section.carto div.cozy span {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 24px;
+}
+
+main section.carto div.mesto {
+    display: flex;
+    column-gap: 10px;
+    padding-left: 24px;
+}
+
+main section.carto div.mesto span  {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(101, 102, 92, 1);
+}
+
+main section.carto div.kapec {
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+}
+
+main section.carto div.kapec span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(101, 102, 92, 1);
+}
+
+main section.carto div.kapec div {
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+main section.knopa  {
+    padding-top: 8vw;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+main section.knopa span.ry {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+main section.knopa span.ry:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.knopa span.go {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.knopa span.go:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+
+main section.triygol {
+    display: grid;
+    background-color: whitesmoke;
+} 
+
+main section.loca {
+    display: grid;
+    justify-items: center;
+    row-gap: 25px;
+    background-color: whitesmoke;
+}
+
+main section.loca h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px
+}
+
+main section.loca p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #65665C;
+    width: 38%;
+    text-align: center;
+}
+
+main section.san {
+    display: grid;
+    padding: 8vw 8vw;
+    background-color: whitesmoke;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 16px;
+}
+
+main section.san article {
+    background-color: white;
+    width: 416px;
+    padding: 33px 33px;
+    border-radius: 16px;
+    border: #E7E8E3;
+}
+
+main section.san article p {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+
+main section.san article span {
+    font-family: "Roboto";
+    font-weight: 400;
+    cursor: pointer;
+}
+
+main section.san article span:hover{
+    transition: all 0.7s;
+    color: orange;
+}
+
+main section.san article svg {
+    margin-left: 12px;
+}
+
+main section.knopak {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+main section.knopak span.ry {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+main section.knopak span.ry:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.knopak span.go {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.knopak span.go:hover {
+    transition: all 0.7s;
+    color: orange;
 }
